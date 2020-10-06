@@ -13,12 +13,49 @@
 
     <title>Creative Counseling | Home</title>
   </head>
+
   <body>
 
     <header class="container-fluid">
+      <!-- BOOTSTRAP MOBILE navbar -->
+      <nav class="mobile navbar navbar-light  ">
 
-      <nav class="navbar navbar-expand-lg">
-        <a href="index.html"><img src="images/logo.png" alt="Creative Counseling Solutions logo" title="Creative Counseling Solutions logo" /></a>
+      <a href="index.html"><img class="navbar-brand logo-mobile" src="images/logo.png" alt="Creative Counseling Solutions logo" title="Creative Counseling Solutions logo" /></a>
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"></button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resources.html">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Links -->
+      </div>
+      <!-- Collapsible content -->
+      </nav>
+
+      <!-- BOOTSTRAP DESKTOP navbar -->
+      <nav class="navbar navbar-expand-lg desktop">
+
+      <a href="index.html"><img src="images/logo.png" alt="Creative Counseling Solutions logo" title="Creative Counseling Solutions logo" /></a>
 
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -31,18 +68,18 @@
             <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="resources.html">Resources</a>
-          </li><li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
+            <a class="nav-link" href="resources.html">Resources</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
 
-<!-- hero image -->
+      <!-- BOOTSTRAP jumbotron -->
       <section class="jumbotron">
         <h1>
           Clear your mind. We can help.
@@ -172,5 +209,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
   </body>
 </html>

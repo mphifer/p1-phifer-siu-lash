@@ -14,6 +14,15 @@ h2 {
   letter-spacing: 1px;
 }
 
+//Mobile navigation
+.logo-mobile {
+  max-width: 100px;
+}
+
+nav-link {
+  color: @black;
+}
+
 // Navigation
 nav {
   ul {
@@ -27,7 +36,7 @@ nav {
         letter-spacing: 1px;
         &:hover, &:active {color:@green; text-decoration: none;}
         text-align: center;
-      }
+          }
         }
       }
     }
@@ -132,8 +141,19 @@ footer {
 
 
 
+/**********************Start Max-width 1000px *******************/
+@media (max-width: 1000px) {
+.desktop {
+  display: none;
+}
+}
+/**********************End Max-width 1000px *******************/
 
 
 /**********************Start Min-width 1000px *******************/
 @media (min-width: 1000px) {
+  .mobile {
+    display: none;
+  }
 }
+/**********************End Min-width 1000px *******************/
