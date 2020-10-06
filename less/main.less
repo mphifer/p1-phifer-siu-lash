@@ -3,14 +3,18 @@
 body {
   background-color: @white;
   font-family: @primary-font;
+  p {
+    font-size: 1.1rem;
+  }
 }
 
 h2 {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   letter-spacing: 1px;
 }
 
@@ -23,7 +27,7 @@ nav-link {
   color: @black;
 }
 
-// Navigation
+// DESKTOP Navigation
 nav {
   ul {
     li {
@@ -67,10 +71,16 @@ nav {
  }
 }
 
+
+///////////////////// BEGIN HOMEPAGE ////////////////////////////////
 //HOME | Quote + Headshot Section
 .quote-section {
+  h2 {
+    .special-headings();
+  }
   p {
     padding-bottom: 10px;
+    font-size: 1.1rem;
   }
   padding-bottom: 20px;
 }
@@ -101,13 +111,11 @@ nav {
   background-size: contain;
   background-position: center;
 }
-
 .services-two {
   background-image:url(../images/plant.jpg);
   background-size: contain;
   background-position: center;
 }
-
 .services-three {
   background-image:url(../images/rocks.jpg);
   background-size: contain;
@@ -141,11 +149,14 @@ footer {
 
 
 
+
+///////////////////// BEGIN Media Queries ////////////////////////////////
+
 /**********************Start Max-width 1000px *******************/
 @media (max-width: 1000px) {
 .desktop {
   display: none;
-}
+  }
 }
 /**********************End Max-width 1000px *******************/
 
