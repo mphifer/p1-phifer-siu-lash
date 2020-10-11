@@ -204,6 +204,64 @@ footer {
   }
 }
 
+
+///////////////////// CONTACT page ////////////////////////////////
+
+.contact-hero {
+  background-image:url(../images/succulent_hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  border-radius: 0;
+}
+
+.contact-page {
+  h1 {
+    .special-headings();
+  }
+}
+
+.contactpage-icons {
+  width: 65px;
+  padding-bottom: 25px;
+}
+
+.contact-icons .col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img {
+    padding-right: 15px;
+  }
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 400px;
+  padding: 0 0 15px 15px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  .form-group {
+    width: 75%;
+  }
+  padding-bottom: 20px;
+  .form-control::placeholder {
+    color: @light-pink;
+  }
+}
+
+
+
 ///////////////////// BEGIN Media Queries ////////////////////////////////
 
 /**********************Start Max-width 1000px *******************/
