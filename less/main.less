@@ -31,7 +31,7 @@ nav-link {
 nav {
   ul {
     li {
-      padding: 40px;
+      padding: 25px;
       a {
         color: @black;
         font-size: 1.2rem;
@@ -149,7 +149,8 @@ footer {
 .about-hero {
   background-image:url(../images/pink-water.jpg);
   background-size: cover;
-  height: 30vh;
+  background-position: bottom;
+  height: 50vh;
   border-radius: 0;
 }
 
@@ -163,6 +164,45 @@ footer {
   }
 }
 
+
+
+///////////////////// RESOURCES page ////////////////////////////////
+
+.resources-hero {
+  background-image:url(../images/plant_hero.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 50vh;
+  border-radius: 0;
+}
+.resources-page {
+  h1 {
+    .special-headings();
+  }
+}
+
+.accordion {
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+}
+
+#resources-accordion {
+  .card-header {
+    padding: 0;
+  }
+  .card-body .row {
+    background-color: @white;
+    padding-bottom: 10px;
+  }
+  width: 75%;
+  h2 button {
+    width: 100%;
+    .accordion-button-style();
+  }
+  a {
+    .accordion-link-style();
+  }
+}
 
 ///////////////////// BEGIN Media Queries ////////////////////////////////
 
