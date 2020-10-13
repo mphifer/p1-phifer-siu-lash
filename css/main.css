@@ -55,8 +55,7 @@
   border-radius: 0;
   font-size: 1.3rem;
   font-weight: 500;
-  -webkit-text-decoration-style: none;
-          text-decoration-style: none;
+  text-decoration: none;
   text-transform: uppercase;
 }
 .accordion-button-style:hover {
@@ -65,8 +64,7 @@
   border-color: #fffff8;
 }
 .accordion-link-style {
-  -webkit-text-decoration-style: none;
-          text-decoration-style: none;
+  text-decoration: none;
 }
 .accordion-link-style .link-box {
   width: 200px;
@@ -288,8 +286,7 @@ footer img {
   border-radius: 0;
   font-size: 1.3rem;
   font-weight: 500;
-  -webkit-text-decoration-style: none;
-          text-decoration-style: none;
+  text-decoration: none;
   text-transform: uppercase;
 }
 #resources-accordion h2 button:hover {
@@ -298,8 +295,7 @@ footer img {
   border-color: #fffff8;
 }
 #resources-accordion a {
-  -webkit-text-decoration-style: none;
-          text-decoration-style: none;
+  text-decoration: none;
 }
 #resources-accordion a .link-box {
   width: 200px;
