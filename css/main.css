@@ -403,10 +403,13 @@ footer img {
 .contact-icons .col img {
   padding-right: 15px;
 }
+#contact-background .row {
+  margin-right: 0;
+}
 .map-container iframe {
-  width: 100%;
+  width: 80%;
   height: 400px;
-  padding: 0 0 15px 15px;
+  margin: 15px;
 }
 h3 {
   font-weight: bold;
@@ -440,6 +443,54 @@ form .form-control::-ms-input-placeholder {
 }
 form .form-control::placeholder {
   color: #f1cdd3;
+}
+/**********************Start Max-width 775px *******************/
+@media (max-width: 450px) {
+  .contact-page .row .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/**********************Start Max-width 775px *******************/
+@media (max-width: 775px) {
+  .contact-page .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .location-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #location-address-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #location-address-details .address-text {
+    text-align: center;
+  }
 }
 /**********************Start Max-width 1000px *******************/
 @media (max-width: 1000px) {

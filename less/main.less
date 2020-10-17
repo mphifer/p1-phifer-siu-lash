@@ -237,10 +237,14 @@ footer {
   }
 }
 
+#contact-background .row {
+  margin-right: 0;
+}
+
 .map-container iframe {
-  width: 100%;
+  width: 80%;
   height: 400px;
-  padding: 0 0 15px 15px;
+  margin: 15px;
 }
 
 h3 {
@@ -265,6 +269,36 @@ form {
 
 
 ///////////////////// BEGIN Media Queries ////////////////////////////////
+
+/**********************Start Max-width 775px *******************/
+
+@media (max-width: 450px) {
+  .contact-page .row .col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/**********************Start Max-width 775px *******************/
+
+@media (max-width: 775px) {
+  .contact-page .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .location-section {
+    display: flex;
+    flex-direction: column;
+  }
+  #location-address-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .address-text {
+      text-align: center;
+    }
+  }
+}
 
 /**********************Start Max-width 1000px *******************/
 @media (max-width: 1000px) {
