@@ -390,6 +390,14 @@ h4{
   letter-spacing: 1px;
 }
 
+.rates-hero{
+  background-image: url(../images/rates.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 50vh;
+  border-radius: 0;
+}
+
 .contact-hero {
   background-image: url(../images/succulent_hero.jpg);
   background-size: cover;
