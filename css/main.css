@@ -391,9 +391,17 @@ h4{
 }
 
 .rates-hero{
-  background-image: url(../images/rates.jpg);
+  background-image: url(../images/rates-hero.jpg);
   background-size: cover;
   background-position: bottom;
+  height: 50vh;
+  border-radius: 0;
+}
+
+.privacy-hero {
+  background-image: url(../images/privacy-hero.jpg);
+  background-size: cover;
+  background-position: center;
   height: 50vh;
   border-radius: 0;
 }
