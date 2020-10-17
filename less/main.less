@@ -270,10 +270,19 @@ form {
 
 ///////////////////// BEGIN Media Queries ////////////////////////////////
 
-/**********************Start Max-width 775px *******************/
+/**********************Start Max-width 450px *******************/
 
 @media (max-width: 450px) {
   .contact-page .row .col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/**********************Start Max-width 550px *******************/
+
+@media (max-width: 550px) {
+  footer .row {
     display: flex;
     flex-direction: column;
   }
@@ -313,6 +322,9 @@ form {
 @media (min-width: 1000px) {
   .mobile {
     display: none;
+  }
+  .active {
+    color: @green;
   }
 }
 /**********************End Min-width 1000px *******************/

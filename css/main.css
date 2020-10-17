@@ -444,9 +444,21 @@ form .form-control::-ms-input-placeholder {
 form .form-control::placeholder {
   color: #f1cdd3;
 }
-/**********************Start Max-width 775px *******************/
+/**********************Start Max-width 450px *******************/
 @media (max-width: 450px) {
   .contact-page .row .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/**********************Start Max-width 550px *******************/
+@media (max-width: 550px) {
+  footer .row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -503,6 +515,9 @@ form .form-control::placeholder {
 @media (min-width: 1000px) {
   .mobile {
     display: none;
+  }
+  .active {
+    color: #85c6ae;
   }
 }
 /**********************End Min-width 1000px *******************/
